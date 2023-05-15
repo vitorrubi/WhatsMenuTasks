@@ -1,0 +1,105 @@
+html {
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 100%;
+}
+body {
+  margin: 0 auto;
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 15px;
+  transition: font-size 0.25s ease;
+}
+h1 {
+  font-size: 70px;
+  line-height: 0.85;
+}
+h2 {
+  font-size: calc(65px / 1.5);
+  margin-top: 10px;
+  line-height: 0.85;
+
+  text-align: center;
+}
+
+p {
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 20px;
+}
+a {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+}
+.container:before,
+.container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  background-color: #125cf5;
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+}
+.footer-navigation {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+/* 5. Component Styles
+  ======================================== */
+button {
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+}
+.button {
+  display: inline-block;
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: normal;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  transition: opacity 0.5s ease;
+}
+.button:hover {
+  opacity: 0.75;
+}
+
+/* Estilo para o botão de sorteio quando estiver desativado */
+.button-disabled {
+  background-color: #ccc;
+  color: #f60b0b;
+}
