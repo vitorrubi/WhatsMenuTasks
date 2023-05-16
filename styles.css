@@ -24,7 +24,8 @@ h1 {
   font-size: 70px;
   line-height: 0.85;
 }
-h2 {
+h2,
+h3 {
   font-size: calc(65px / 1.5);
   margin-top: 10px;
   line-height: 0.85;
@@ -32,10 +33,10 @@ h2 {
   text-align: center;
 }
 
-p {
+p b {
   font-family: "Playfair Display", Georgia, serif;
   font-size: 20px;
-  color: #f60b0b;
+  color: #aef381;
 }
 a {
   font-family: "Open Sans", Helvetica, sans-serif;
@@ -63,9 +64,11 @@ li {
   display: table;
   clear: both;
 }
-
+.top {
+  background-color: #e28d8d;
+}
 .footer {
-  background-color: #125cf5;
+  background-color: #4da12ccd;
   color: #ffffff;
   padding: 30px;
   text-align: center;
@@ -97,10 +100,4 @@ button:hover {
 }
 .button:hover {
   opacity: 0.75;
-}
-
-/* Estilo para o botão de sorteio quando estiver desativado */
-.button-disabled {
-  background-color: #ccc;
-  color: #f60b0b;
 }
